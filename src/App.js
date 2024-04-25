@@ -19,7 +19,7 @@ function App() {
      <NavBar />
      <Home />
      <About />
-     <SocialLinks />
+     {/* <SocialLinks /> */}
      <Experience/>
      <Portfolio />
     <Skills />

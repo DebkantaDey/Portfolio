@@ -4,8 +4,10 @@ import { FaGithub  } from 'react-icons/fa';
 import Omaha from '../assets/portfolio/Omaha.png';
 import RawNews from '../assets/portfolio/RawNews.png';
 import TatumEyeCare from '../assets/portfolio/TatumEyeCare.png';
-
-import Songanize from '../assets/portfolio/Songanize.png'
+import Kitchen from '../assets/portfolio/Kitchen.png';
+import Bathroom from '../assets/portfolio/Bathroom.png';
+import Songanize from '../assets/portfolio/Songanize.png';
+import E_Commerce from '../assets/portfolio/E_Commerce.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
@@ -19,8 +21,8 @@ const Portfolio = () => {
           id: 1,
           src: MyPortfolio,
           name: "My Portfolio",
-          demoLink: "https://rickpratihar-portfolio.netlify.app/", 
-          githubRepo: "https://github.com/RickPratihar/React-portfolio",
+          demoLink: "", 
+          githubRepo: "",
           techstack: "Reactjs, Tailwind Css, Framer-motion, Aos Libery",
         },
         // {
@@ -55,14 +57,30 @@ const Portfolio = () => {
           githubRepo: "",
           techstack: "WordPress",
         },
-        // {
-        //   id: 5,
-        //   name: "Chatting Application",
-        //   src: ChatApp,
-        //   demoLink: "https://chat-app-b77fcf.netlify.app/app", 
-        //   githubRepo: "https://github.com/RickPratihar/mordernchatapp",
-        //   techstack: "React v18, Mui v5, Redux",
-        // },
+        {
+          id: 4,
+          name: "Premier Kitchens Cork",
+          src: Kitchen,
+          demoLink: "https://premierkitchenscork.ie/", 
+          githubRepo: "",
+          techstack: "WordPress",
+        },
+        {
+          id: 5,
+          name: "Bathroom Renovations Cork",
+          src: Bathroom,
+          demoLink: "https://bathroomrenovationscork.ie", 
+          githubRepo: "",
+          techstack: "HTML, CSS, JavaScript, Jqury, PHP",
+        },
+        {
+          id: 5,
+          name: "A1 Caravans Sales",
+          src: E_Commerce,
+          demoLink: "https://a1caravans.ie", 
+          githubRepo: "",
+          techstack: "WordPress",
+        }
   
        
       ];
@@ -73,7 +91,7 @@ const Portfolio = () => {
           id: 1,
           src: Songanize,
           name: "Songanize",
-          demoLink: "", 
+          demoLink: "https://play.google.com/store/apps/details?id=com.songanize&pcampaignid=web_share", 
           githubRepo: "",
           techstack: "React Native",
         },
@@ -81,7 +99,7 @@ const Portfolio = () => {
           id: 2,
           name: "Raw News USA",
           src: RawNews,
-          demoLink: "", 
+          demoLink: "https://play.google.com/store/apps/details?id=com.rawnewsusa.app&pcampaignid=web_share", 
           githubRepo: "",
           techstack: "React Native",
         },
@@ -163,10 +181,10 @@ const Portfolio = () => {
                   <h3 className="text-xl text-center text-white font-medium">
                     {name}
                   </h3>
-                  <p className="text-me  px-3 text-blue-300 ">
+                  <div className="text-me  px-3 text-blue-300 ">
                     <span className="font-bold text-white">Tech Stack : </span>
                     {techstack}
-                  </p>
+                  </div>
                 </div>
               <div className="flex items-center justify-center pt-4">
                 <button

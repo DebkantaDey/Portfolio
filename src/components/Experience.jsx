@@ -9,7 +9,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../style/styles";
 //import { experiences } from "../constants";
-import { SectionWrapper } from "../hok/SectionWrapper";
+import  SectionWrapper from "../hok/SectionWrapper";
 import { textVariant } from "../utils/motion";
 import Kus from '../assets/Experience/Kus.png'
 import Elegant from '../assets/Experience/Elegant.png';
@@ -19,7 +19,7 @@ AOS.init();
 
 const experiences = [
     {
-        title: "Full Stack Developer",
+        title: "Junior Web Developer",
         company_name: "Kus Software",
         icon:Kus,
         iconBg: "#E6DEDD",
@@ -55,7 +55,7 @@ const ExperienceCard = ({ experience }) => {
             date={experience.date}
             iconStyle={{ background: experience.iconBg }}
             icon={
-                <div className='flex justify-center items-center w-full h-full'>
+                <div   name="Experience" className='flex justify-center items-center w-full h-full'>
                     <img
                         src={experience.icon}
                         alt={experience.company_name}

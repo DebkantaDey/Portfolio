@@ -14,8 +14,8 @@ const Services = () => {
     },
     {
       id: 2,
-      title: "WordPress",
-      des: " Unlock the power of WordPress with our expert developers. We customize, optimize, and maintain WordPress websites for seamless performance and stunning design. Your digital vision, our WordPress expertise.",
+      title: "App Development",
+      des: " Unlock the power of App Development with our expert developers. We customize, optimize, and maintain App Development for seamless performance and stunning design. Your digital vision, our App Development expertise.",
       style: "shadow-blue-500",
     },
   ];
@@ -43,12 +43,12 @@ const Services = () => {
           className="grid lg:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-10 px-12 sm:px-0"
           data-aos="fade-up"
         >
-          {service.map(({ id, title, des,style, }) => (
+          {service.map(({ id, title, des, style, }) => (
             <div
               key={id}
-              className={`shadow-lg hover:scale-105 duration-500 py-2 rounded-lg  p-8 ${style} mb-5` }
+              className={`shadow-lg hover:scale-105 duration-500 py-3 rounded-lg  p-8 ${style} mb-5`}
               data-aos="fade-down"  >
-                <FaPaintBrush/>
+              <FaPaintBrush />
               <h2 className="mt-4 mb-5">{title}</h2>
               <p>{des}</p>
             </div>
