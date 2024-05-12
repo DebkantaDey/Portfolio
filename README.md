@@ -3,7 +3,7 @@
 
 ![Screenshot_20230918_055100]
 
-<h2>Live Demo: https://debkantadey.netlify.app///</h2>
+<h2>Live Demo: https://debkantadey.netlify.app</h2>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
