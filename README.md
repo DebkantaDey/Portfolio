@@ -3,7 +3,7 @@
 
 ![Screenshot_20230918_055100](https://github.com/RickPratihar/Rick-portfolio/assets/103872207/db95df72-8cdc-49ec-994b-e13db2980fbb)
 
-<h2>Live Demo: [https://rickpratihar-portfolio.netlify.app](https://debkantadey.netlify.app/)//</h2>
+<h2>Live Demo: https://debkantadey.netlify.app///</h2>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
