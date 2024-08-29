@@ -1,18 +1,15 @@
 import React from 'react';
 import html from "../assets/html.png";
 import css from "../assets/css.png";
-import github from "../assets/github.png";
+import jQuery from "../assets/jQuery.png";
 import javascript from "../assets/javascript.png";
-import mongoDB from "../assets/mongoDB.png";
-import git from "../assets/gitlogo.png";
 import tailwind from "../assets/tailwind.png";
 import react from "../assets/react.png";
-import BootStrap from "../assets/Bootstrap.png";
-import Netlify from "../assets/netlify.png";
 import redux from "../assets/redux.png";
-import node from "../assets/node.png";
-import ReactNative from "../assets/React_Native.png";
-import NextJS from '../assets/nextjs.png';
+import PHP from "../assets/PHP.png";
+import MySQL from "../assets/MySQL.png";
+import JAVA from "../assets/JAVA.png";
+import Bootstrap from '../assets/Bootstrap.png';
 import WordPress from '../assets/WordPress.png'
 
 import AOS from "aos";
@@ -41,9 +38,9 @@ const Skills = () => {
         },
         {
           id: 4,
-          src: react,
-          title: "React",
-          style: "shadow-blue-600",
+          src: Bootstrap,
+          title: "Bootstrap",
+          style: "shadow-gray-400"
         },
         {
           id: 5,
@@ -53,39 +50,38 @@ const Skills = () => {
         },
         {
           id: 6,
-          src: NextJS,
-          title: "Next JS",
-          //style: "shadow-green-800",
-          style: "shadow-gray-400"
-        },
-        {
-          id: 7,
-          src: git,
-          title: "git",
+          src: jQuery,
+          title: "jQuery",
           style: "shadow-yellow-700",
         },
         {
+          id: 7,
+          src: react,
+          title: "React",
+          style: "shadow-blue-600",
+        },
+        {
           id: 8,
-          src: github,
-          title: "GitHub",
-          style: "shadow-gray-400",
+          src: redux,
+          title: "REDUX",
+          style: "shadow-purple-400",
         },
         {
           id: 9,
-          src: ReactNative,
-          title: "React Native",
+          src: PHP,
+          title: "PHP",
           style: "shadow-blue-600",
         },
         {
           id: 10,
-          src: node,
-          title: "node",
+          src: MySQL,
+          title: "MySQL",
           style: "shadow-blue-400",
         },
         {
           id: 11,
-          src: redux,
-          title: "REDUX",
+          src: JAVA,
+          title: "JAVA",
           style: "shadow-purple-400",
         },
         {
@@ -93,7 +89,7 @@ const Skills = () => {
           src: WordPress,
           title: "WordPress",
           style: "shadow-blue-400",
-        },
+        }
       ];
     
       return (

@@ -6,11 +6,8 @@ import {
 import { motion } from "framer-motion";
 
 import "react-vertical-timeline-component/style.min.css";
-
-import { styles } from "../style/styles";
-//import { experiences } from "../constants";
-import  SectionWrapper from "../hok/SectionWrapper";
 import { textVariant } from "../utils/motion";
+import MIP from '../assets/Experience/MIP.png';
 import Kus from '../assets/Experience/Kus.png'
 import Elegant from '../assets/Experience/Elegant.png';
 import AOS from "aos";
@@ -19,11 +16,24 @@ AOS.init();
 
 const experiences = [
     {
-        title: "Junior Web Developer",
+        title: "Lecturer in Computer Science and Technology",
+        company_name: "Mallabhum Institute of Polytechnic",
+        icon:MIP,
+        iconBg: "#E6DEDD",
+        date: "May 2024 - Present",
+        points: [
+            "Teaching core subjects: programming, software development, and data structures.",
+            "Designing and delivering engaging course materials.",
+            "Guideing students through practical projects connecting theory with real-world applications.",
+            "Passionate about inspiring and equipping the next generation of technologists.",
+        ],
+    },
+    {
+        title: "React JS Developer",
         company_name: "Kus Software",
         icon:Kus,
         iconBg: "#E6DEDD",
-        date: "June 2023 - Present",
+        date: "June 2023 - February 2024",
         points: [
             "Developing and maintaining web applications using HTML5, Css3, JavaScript, React.js and other related technologies.",
             "Crafting innovative and high-performing websites and web applications.",
@@ -91,8 +101,8 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
     return (
         <>
-            <motion.div variants={textVariant()}>
-                <h2 className="flex justify-center items-center text-5xl font-bold text-white pb-4">
+            <motion.div variants={textVariant()} className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+                <h2 className="flex justify-center items-center text-5xl font-bold text-white border-b-4 border-yellow-500 pb-4">
                     Experience.
                 </h2>
             </motion.div>

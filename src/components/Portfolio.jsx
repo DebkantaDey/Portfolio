@@ -25,22 +25,6 @@ const Portfolio = () => {
           githubRepo: "",
           techstack: "Reactjs, Tailwind Css, Framer-motion, Aos Libery",
         },
-        // {
-        //   id: 2,
-        //   name: "Car Rental Website",
-        //   src: CarRental,
-        //   demoLink: "https://car-rental-172695.netlify.app/home", 
-        //   githubRepo: "https://github.com/RickPratihar/Car-Rental-website",
-        //   techstack: "React, Bootstrap, Css3",
-        // },
-        // {
-        //   id: 3,
-        //   name: "Cara E-Commerce",
-        //   src: Shopping,
-        //   demoLink: "https://debkantadey.github.io/Calculator/", 
-        //   githubRepo: "https://github.com/DebkantaDey/Calculator",
-        //   techstack: "React, Material Ui",
-        // },
         {
           id: 2,
           name: "Omaha Auto Jump Start Service",
