@@ -15,17 +15,30 @@ import "aos/dist/aos.css";
 AOS.init();
 
 const experiences = [
+    // {
+    //     title: "Lecturer in Computer Science and Technology",
+    //     company_name: "Mallabhum Institute of Polytechnic",
+    //     icon:MIP,
+    //     iconBg: "#E6DEDD",
+    //     date: "May 2024 - Present",
+    //     points: [
+    //         "Teaching core subjects: programming, software development, and data structures.",
+    //         "Designing and delivering engaging course materials.",
+    //         "Guideing students through practical projects connecting theory with real-world applications.",
+    //         "Passionate about inspiring and equipping the next generation of technologists.",
+    //     ],
+    // },
     {
-        title: "Lecturer in Computer Science and Technology",
-        company_name: "Mallabhum Institute of Polytechnic",
-        icon:MIP,
+        title: "Website Developer",
+        company_name: "Elegant Pro Designs",
+        icon: Elegant,
         iconBg: "#E6DEDD",
         date: "May 2024 - Present",
         points: [
-            "Teaching core subjects: programming, software development, and data structures.",
-            "Designing and delivering engaging course materials.",
-            "Guideing students through practical projects connecting theory with real-world applications.",
-            "Passionate about inspiring and equipping the next generation of technologists.",
+            "Developing and maintaining web applications using HTML, CSS, JavaScript, React, WordPress and other related technologies.",
+            "Install all plaugin and set payment get Way creating page like donation, about, contact us etc.",
+            "My role is optimizing user experience, implementing interactive features, and ensuring cross-browser compatibility. ",
+            "I actively engaged in the intricate world of web development, gaining invaluable hands-on experience and contributing to real-world projects using HTML, CSS, JavaScript, React and WordPress."
         ],
     },
     {
@@ -40,19 +53,7 @@ const experiences = [
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
-    },
-    {
-        title: "Web Developer Intern",
-        company_name: "Elegant Pro Designs",
-        icon: Elegant,
-        iconBg: "#E6DEDD",
-        date: "March 2023 - May 2023",
-        points: [
-            "Developing and maintaining web applications using WordPress and other related technologies.",
-            "Install all plaugin and set payment get Way creating page like donation, about, contact us etc.  ",
-            "I actively engaged in the intricate world of web development, gaining invaluable hands-on experience and contributing to real-world projects using HTML, CSS, JavaScript and WordPress."
-        ],
-    },
+    }
 ];
 const ExperienceCard = ({ experience }) => {
     return (
