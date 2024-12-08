@@ -29,29 +29,29 @@ const experiences = [
     //     ],
     // },
     {
-        title: "Website Developer",
-        company_name: "Elegant Pro Designs",
-        icon: Elegant,
-        iconBg: "#E6DEDD",
-        date: "May 2024 - Present",
-        points: [
-            "Developing and maintaining web applications using HTML, CSS, JavaScript, React, WordPress and other related technologies.",
-            "Install all plaugin and set payment get Way creating page like donation, about, contact us etc.",
-            "My role is optimizing user experience, implementing interactive features, and ensuring cross-browser compatibility. ",
-            "I actively engaged in the intricate world of web development, gaining invaluable hands-on experience and contributing to real-world projects using HTML, CSS, JavaScript, React and WordPress."
-        ],
-    },
-    {
         title: "React JS Developer",
         company_name: "Kus Software",
         icon:Kus,
         iconBg: "#E6DEDD",
-        date: "June 2023 - February 2024",
+        date: "June 2023 - October 2024",
         points: [
             "Developing and maintaining web applications using HTML5, Css3, JavaScript, React.js and other related technologies.",
             "Crafting innovative and high-performing websites and web applications.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
+        title: "Website Developer Internship",
+        company_name: "Elegant Pro Designs",
+        icon: Elegant,
+        iconBg: "#E6DEDD",
+        date: "March 2023 - May 2023",
+        points: [
+            "Developing and maintaining web applications using HTML, CSS, JavaScript, React, WordPress and other related technologies.",
+            "Install all plaugin and set payment get Way creating page like donation, about, contact us etc.",
+            "My role is optimizing user experience, implementing interactive features, and ensuring cross-browser compatibility. ",
+            "I actively engaged in the intricate world of web development, gaining invaluable hands-on experience and contributing to real-world projects using HTML, CSS, JavaScript, React and WordPress."
         ],
     }
 ];
