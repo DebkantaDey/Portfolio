@@ -1,5 +1,7 @@
 import React from "react";
 import { FaPaintBrush } from "react-icons/fa";
+import { FaGlobe } from "react-icons/fa";
+import { FaMobile } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
@@ -11,12 +13,14 @@ const Services = () => {
       title: "Web Development",
       des: " Elevate your online presence with our web development expertise. We create cutting-edge, responsive websites tailored to your needs, ensuring a seamless user experience. Your digital success starts here.",
       style: "shadow-red-500",
+      icon: <FaGlobe />
     },
     {
       id: 2,
       title: "App Development",
       des: " Unlock the power of App Development with our expert developers. We customize, optimize, and maintain App Development for seamless performance and stunning design. Your digital vision, our App Development expertise.",
       style: "shadow-blue-500",
+      icon: <FaMobile />
     },
   ];
 
@@ -43,12 +47,12 @@ const Services = () => {
           className="grid lg:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-10 px-12 sm:px-0"
           data-aos="fade-up"
         >
-          {service.map(({ id, title, des, style, }) => (
+          {service.map(({ id, title, des, style, icon }) => (
             <div
               key={id}
               className={`shadow-lg hover:scale-105 duration-500 py-3 rounded-lg  p-8 ${style} mb-5`}
               data-aos="fade-down"  >
-              <FaPaintBrush />
+              {icon}
               <h2 className="mt-4 mb-5">{title}</h2>
               <p>{des}</p>
             </div>

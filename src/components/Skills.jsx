@@ -6,6 +6,9 @@ import javascript from "../assets/javascript.png";
 import tailwind from "../assets/tailwind.png";
 import react from "../assets/react.png";
 import redux from "../assets/redux.png";
+import node from "../assets/node.png";
+import express from "../assets/express.svg";
+import MongoDB from "../assets/mongodb.svg";
 import PHP from "../assets/PHP.png";
 import MySQL from "../assets/MySQL.png";
 import JAVA from "../assets/JAVA.png";
@@ -38,33 +41,33 @@ const Skills = () => {
         },
         {
           id: 4,
-          src: Bootstrap,
-          title: "Bootstrap",
-          style: "shadow-gray-400"
-        },
-        {
-          id: 5,
-          src: tailwind,
-          title: "Tailwind",
-          style: "shadow-sky-400",
-        },
-        {
-          id: 6,
-          src: jQuery,
-          title: "jQuery",
-          style: "shadow-yellow-700",
-        },
-        {
-          id: 7,
           src: react,
           title: "React",
           style: "shadow-blue-600",
         },
         {
-          id: 8,
+          id: 5,
           src: redux,
           title: "REDUX",
           style: "shadow-purple-400",
+        },
+        {
+          id: 6,
+          src: node,
+          title: "Node JS",
+          style: "shadow-green-400",
+        },
+        {
+          id: 7,
+          src: express,
+          title: "Express",
+          style: "shadow-gray-400",
+        },
+        {
+          id: 8,
+          src: MongoDB,
+          title: "MongoDB",
+          style: "shadow-green-400",
         },
         {
           id: 9,
